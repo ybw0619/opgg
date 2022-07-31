@@ -1,4 +1,4 @@
-#OPGG FE 주니어 사전 과제
+# OPGG FE 주니어 사전 과제
 
 Node 16  
 Vue 3 / script setup  
@@ -6,7 +6,7 @@ Vite
 Npm  
 VS Code + Volar
 
-#구조
+# 구조
 
 ```sh
 ├── .src
