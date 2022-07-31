@@ -10,12 +10,12 @@
           <MostInfo v-bind="mostInfo" />
         </div>
         <div class="w-[700px] pt-[10px] pl-[10px]">
-          <MatchList
+          <MatchInfo
             :matchType="matchType"
             @changeMatchType="changeMatchType"
             v-bind="matchList"
           />
-          <Games
+          <MatchList
             :summonerName="summonerName"
             v-bind="matchList"
             :matchType="matchType"
@@ -35,8 +35,8 @@ import Info from './components/Info.vue'
 import RankedFlex from './components/RankedFlex.vue'
 import RankedSolo from './components/RankedSolo.vue'
 import MostInfo from './components/MostInfo.vue'
+import MatchInfo from './components/MatchInfo.vue'
 import MatchList from './components/MatchList.vue'
-import Games from './components/Games.vue'
 
 const summonerName = ref('')
 
