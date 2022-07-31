@@ -6,7 +6,7 @@
           <input
             v-model="name"
             type="text"
-            class="font-apple absolute h-full w-full rounded-[2px] pl-[14px] pt-[9px] pr-[10px] pb-[8px] text-[12px] text-[#727272] outline-none"
+            class="absolute h-full w-full rounded-[2px] pl-[14px] pt-[9px] pr-[10px] pb-[8px] font-apple text-[12px] text-[#727272] outline-none"
             placeholder="소환사명,챔피언…"
             @keydown.enter="search(name)"
           />
@@ -99,7 +99,7 @@
   </div>
 </template>
 <script setup>
-import { ref, defineEmits, watch, computed, compile } from 'vue'
+import { ref, watch, computed } from 'vue'
 
 const emit = defineEmits()
 

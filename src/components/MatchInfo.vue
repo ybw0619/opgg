@@ -126,7 +126,7 @@
   </div>
 </template>
 <script setup>
-import { ref, reactive, computed, defineEmits } from 'vue'
+import { reactive, computed } from 'vue'
 import TOP from '@/assets/TOP.png'
 import MID from '@/assets/MID.png'
 import JNG from '@/assets/JNG.png'
@@ -139,7 +139,6 @@ import { Chart, registerables } from 'chart.js'
 
 Chart.register(...registerables)
 
-// const matchType = ref('ALL')
 const emit = defineEmits()
 
 const position = {

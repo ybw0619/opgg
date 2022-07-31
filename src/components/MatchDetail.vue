@@ -11,7 +11,7 @@
   </div>
 </template>
 <script setup>
-import { reactive, defineProps } from 'vue'
+import { reactive } from 'vue'
 import { getMatchDetail } from '@/api/v1'
 
 const props = defineProps(['summonerName', 'gameId'])

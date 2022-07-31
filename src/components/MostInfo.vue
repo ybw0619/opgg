@@ -88,7 +88,7 @@
   </div>
 </template>
 <script setup>
-import { ref, reactive, computed, defineProps } from 'vue'
+import { ref, reactive, computed } from 'vue'
 
 const tab = ref('champion')
 

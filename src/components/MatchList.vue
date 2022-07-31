@@ -147,7 +147,7 @@
   </div>
 </template>
 <script setup>
-import { defineProps, computed } from 'vue'
+import { computed } from 'vue'
 import { CHAMPIONS_KR } from '@/constans'
 import { fromUnixTime, intervalToDuration } from 'date-fns'
 

@@ -34,7 +34,6 @@
   </div>
 </template>
 <script setup>
-import { defineProps } from 'vue'
 const { summoner } = defineProps(['summoner'])
 </script>
 <style></style>

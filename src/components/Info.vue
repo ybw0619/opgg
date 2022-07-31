@@ -50,7 +50,7 @@
 </template>
 <script setup>
 import levelbox from '@/assets/bg-levelbox.png'
-import { defineProps, computed } from 'vue'
+import { computed } from 'vue'
 const { summoner } = defineProps(['summoner'])
 const sortedPrevTiers = computed(() =>
   summoner?.previousTiers.slice().reverse()
