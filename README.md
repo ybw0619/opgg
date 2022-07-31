@@ -1,11 +1,14 @@
-OPGG FE 주니어 사전 과제
+#OPGG FE 주니어 사전 과제
+
 Node 16
 Vue 3 / script setup
 Vite
 Npm
 VS Code + Volar
-vue-router && vuex 사용안했습니다.
-구조
+
+#구조
+
+```sh
 ├── .src
 │ ├── api # api
 │ ├── assets # 이미지리소스
@@ -19,13 +22,13 @@ vue-router && vuex 사용안했습니다.
 │ │ ├── RankedFlex.vue # 자랭 정보
 │ │ └── RankedSolo.vue # 솔랭 정보
 │ ├─── Constans
-│ │ ├── champion.js # 챔피언 이름 key(Eng) : val(Kor) 
-│ │ ├── index.v2.js 
+│ │ ├── champion.js # 챔피언 이름 key(Eng) : val(Kor)
+│ │ ├── index.v2.js
 │ │ └── url.js # api url 주소 상수화
 │ ├── App.vue # App.vue
 │ ├── main.js # main.js
-│ ├── style.css # tailwind 정의 
-│ └── Summoners.vue # 소환사 검색 View 
+│ ├── style.css # tailwind 정의
+│ └── Summoners.vue # 소환사 검색 View
 ├── .gitignore
 ├── .prettierignore
 ├── index.html
@@ -35,3 +38,4 @@ vue-router && vuex 사용안했습니다.
 ├── README.md
 ├── tailwind.config.cjs # tailwind 설정
 └── vite.config.js # vite 설정
+```
